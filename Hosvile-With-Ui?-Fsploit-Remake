@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Hosvile with ui?", "DarkTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main Stuff")
+Section:NewButton("Auto parry", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+    print("Clicked")
+end)
+Section:NewButton("Auto Spam", "ButtonInfo", function()
+getgenv().config = getgenv().config or {
+    hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
+ 
+    mode = 'Always', -- // Hold , Toggle , Always \ --
+    deflect_type = 'Remote', -- // Key Press , Remote \ --
+    notifications = true,
+    keybind = Enum.KeyCode.V
+}
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Info")
+local Section = Tab:NewSection("Ui by Fsploit aka me")
+local Section = Tab:NewSection("Auto parry from hosvile")
+local Section = Tab:NewSection("KEYLESS")
+local Section = Tab:NewSection("Version 0.1.1")
