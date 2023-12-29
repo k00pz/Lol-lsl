@@ -86,7 +86,7 @@ tab1:CreateWarning("⚠️ do not be close to other players while spamming")
 tab1:CreateLabel("Visual")
 
 tab1:CreateButton("Esp radar | pc/mobile", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/ESP-RADAR/main/Radargreenhub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Fsploitrady/main/Hi"))()
 print("Hello World")
 end)
 
@@ -109,6 +109,14 @@ tab1:CreateLabel("made by smartass0858")
 tab1:CreateLabel("powerd by bl423_ / PyxPixel Boiz")
 
 tab1:CreateLabel("updated 12/28/23")
+
+tab1:CreateLabel("updated specs")
+
+tab1:CreateLabel("renew ui")
+
+tab1:CreateLabel("updated auto parry")
+
+tab1:CreateLabel("Made it keyless")
 
 tab1:CreateLabel("Next update in January 25")
 
