@@ -1,26 +1,136 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Hosvile with ui?", "DarkTheme")
-local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Main Stuff")
-Section:NewButton("Auto parry", "ButtonInfo", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
-    print("Clicked")
+-- Made by 1smartass0858 dev uwu
+-- most op script ever lol
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Pls wait 10 secs";
+	Text = "Made by smartass0858 aka Fsploit";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Fsploit's hub is currently loading data & assets..";
+    Color = Color3.fromRGB(12, 260, 150);
+})
+
+wait(1.1)
+wait(2.1)
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Fsploit's Hub is currently loading..";
+    Color = Color3.fromRGB(12, 260, 150);
+})
+
+wait(1.4)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Fsploit's Hub : Auto Bypased System, Activated!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+wait(3.3)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Bypased Found: Byfron_apk_stophackz";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+wait(1.3)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Bypassing Byfron_apk_stophackz";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Bypassing..";
+    Color = Color3.fromRGB(0, 230, 255);
+})
+
+wait(3.5)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Starting the hub!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+
+local window = PabloLib:Create(
+"fsploit's | blade ball | v10", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Main")
+
+tab1:CreateButton("Auto parry", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))()
+print("Hello World")
 end)
-Section:NewButton("Auto Spam", "ButtonInfo", function()
-getgenv().config = getgenv().config or {
-    hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
- 
-    mode = 'Always', -- // Hold , Toggle , Always \ --
-    deflect_type = 'Remote', -- // Key Press , Remote \ --
-    notifications = true,
-    keybind = Enum.KeyCode.V
-}
- 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
-    print("Clicked")
+
+tab1:CreateButton("Spam Button", function()
+
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hey⚠️"; 
+Text = "Spam Gui not done😭"; 
+Duration = 15; 
+})
+
+print("Hello World")
 end)
-local Tab = Window:NewTab("Info")
-local Section = Tab:NewSection("Ui by Fsploit aka me")
-local Section = Tab:NewSection("Auto parry from hosvile")
-local Section = Tab:NewSection("KEYLESS")
-local Section = Tab:NewSection("Version 0.1.1")
+
+tab1:CreateWarning("⚠️ do not be close to other players while spamming")
+
+tab1:CreateLabel("Visual")
+
+tab1:CreateButton("Esp radar | pc/mobile", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/ESP-RADAR/main/Radargreenhub"))()
+print("Hello World")
+end)
+
+tab1:CreateLabel("fe stuff")
+
+tab1:CreateButton("Fly gui", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+print("Hello World")
+end)
+
+tab1:CreateButton("Inf Yeild", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+print("Hello World")
+end)
+
+local tab1 = window:CreateTab("Info/credit")
+
+tab1:CreateLabel("made by smartass0858")
+
+tab1:CreateLabel("powerd by bl423_ / PyxPixel Boiz")
+
+tab1:CreateLabel("updated 12/28/23")
+
+tab1:CreateLabel("Next update in January 25")
+
+tab1:CreateLabel("Version 10.0")
+
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hey!"; 
+Text = "loaded success fully!"; 
+Duration = 5; 
+})
+
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hey!"; 
+Text = "Made by smartass0858!"; 
+Duration = 5; 
+})
+
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hey!"; 
+Text = "powerd by bl423_!"; 
+Duration = 5; 
+})
